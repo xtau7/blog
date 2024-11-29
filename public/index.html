@@ -1,0 +1,61 @@
+<section id="auth">
+    <h2>Registrarse</h2>
+    <form id="register-form">
+        <input type="text" id="register-username" placeholder="Nombre de usuario" required>
+        <input type="password" id="register-password" placeholder="Contraseña" required>
+        <button type="submit">Registrarse</button>
+    </form>
+
+    <h2>Iniciar Sesión</h2>
+    <form id="login-form">
+        <input type="text" id="login-username" placeholder="Nombre de usuario" required>
+        <input type="password" id="login-password" placeholder="Contraseña" required>
+        <button type="submit">Iniciar sesión</button>
+    </form>
+</section>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>q pongo aki seme olvido</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre Mí</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Hola soy yo</h2>
+            <p>Fecha: 20 de Noviembre, 2024</p>
+            <p>nose que poner</p>
+        </article>
+        
+        <section id="comments">
+            <h3>Comentarios</h3>
+            <div class="comment">
+                <p><strong>Usuario1:</strong> ¡Gran artículo!</p>
+            </div>
+            <div class="comment">
+                <p><strong>Usuario2:</strong> Muy informativo, gracias por compartir.</p>
+            </div>
+            <form id="comment-form">
+                <textarea placeholder="Añade un comentario..."></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mi Blog. Todos los derechos reservados.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
